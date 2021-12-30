@@ -73,7 +73,8 @@ img{
 
 .machine-usage {
     color:white;
-    position: relative;
+   display: inline-block;
+   position: relative;
 }
 
 .machine-usage__inner {
@@ -108,7 +109,6 @@ img{
     left: 100%;
     top: 0;
 }
-
 
 .unordered-list {
     display: flex;
@@ -169,8 +169,8 @@ img{
     border-radius: 3px;
     transition: all 0.5s ease;
     position: absolute;
-    left:20px;
-    bottom:-20px;
+    top: 90%;
+    left:3%;
 }
 
 .start-button:hover{
