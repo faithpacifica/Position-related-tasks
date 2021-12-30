@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position in CSS</title>
+
+  <!-- Icons cdn link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ 
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <!-- Washing machine template -->
+  <div class="washing-machine__wrapper">
+    <div class="container">
+
+      <header class="header">
+        <div class="titles">
+          <h1 class="header-title active">Synthetic</h1>
+          <h1 class="header-title header_opacity">Wool</h1>
+          <h1 class="header-title header_opacity">Denim</h1>
+          <h1 class="header-title header_opacity">Silk</h1>
+          <h1 class="header-title header_opacity">Linear</h1>
+        </div>
+        <p class="header__text">Loads should be under 8 pounds. It is recommended using neutral detergent to <br>prevent
+          damage to the cloth and to improve the washing results.</p>
+      </header>
+
+      <section class='machine-usage'>
+        <div class="machine-usage__inner">
+          <button class="btn before" type='button'>
+           <i class="fas fa-caret-left"></i>
+          </button>
+          <div class="wrapper">
+            <ul class="unordered-list">
+              <li class="unordered-list__item timer">
+                <p class="unordered-list__item__title">Timer</p>
+                <p class="unordered-list__item__timer">45 min</p>
+              </li>
+              <li class="unordered-list__item temperature">
+                <p class="unordered-list__item__title">Temperature</p>
+                <p class="unordered-list__item__timer">Cold</p>
+              </li>
+              <li class="unordered-list__item load">
+                <p class="unordered-list__item__title">Load</p>
+                <p class="unordered-list__item__timer">Medium</p>
+              </li>
+            </ul>
+            </div>
+          <button class="btn after" type='button'>
+            <i class="fas fa-caret-right"></i>
+          </button>
+        </div>
+        <button class="start-button" type='button'>Start</button>
+      </section>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <!-- Sign up template -->
+  <div class="sign-card-wrapper">
+    <div class="signup-card">
+
+      <div class="container">
+        <div class="signup-card__inner">
+          <h5 class="signup-card__title">Account settings</h5>
+          <button class="signup-card__close-button" type="button">
+            <!-- <img src="img/close.svg" alt="close" width="20" height="20"> -->
+            <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <form class="form" action="#" method="#">
+          
+          <img class="signup-card__img" src="img/avatar.jpg" alt="user-img" width="60" height="60">
+          <div class="form-box">
+            <div class="input-group">
+              <label class="input-group__label" for="username">Username</label>
+              <input class="input-group__input" type="text" placeholder="Enter your username" name="username"
+                id="username" required>
+            </div>
+            <div class="full-name">
+              <div class="input-group">
+                <label class="input-group__label" for="firstname">First Name</label>
+                <input class="input-group__input" type="text" placeholder="Enter your first name" name="firstname"
+                  id="firstname" required>
+              </div>
+              <div class="input-group">
+                <label class="input-group__label" for="lastname">Last Name</label>
+                <input class="input-group__input" type="text" placeholder="Enter your last name" name="lastname"
+                  id="lastname" required>
+              </div>
+            </div>
+            <div class="input-group">
+              <label class="input-group__label" for="email">Email</label>
+              <input class="input-group__input" type="mail" placeholder="Enter your email" name="email" id="email"
+                required>
+            </div>
+            <div class="input-group  textarea-group">
+              <label class="input-group__label" for="bio">Bio</label>
+              <textarea class="input-group__input textarea" name="bio" id="bio" cols="50" rows="6"
+                placeholder="Tell us about yourself" required></textarea>
+            </div>
+          </div>
+          <div class="form-buttons">
+            <button class="form-button" type='button'>Cancel</button>
+            <button class="form-button" type="submit">Save</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
