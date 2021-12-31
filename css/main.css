@@ -227,18 +227,16 @@ img{
     border-radius:50%;
     position: absolute;
     top: -35px;
-    margin-left: 40px;
-}
-
-.form {
-    position: relative;
+    margin-left: 0px;
 }
 
 .form-box {
+    position: relative;
     width:450px;
     background-color:#fff;
     padding: 40px;
     margin-bottom: 30px;
+    box-shadow:  20px 7px 20px rgb(0 0 0 / 60%)
 }
 
 .input-group {
@@ -274,9 +272,7 @@ img{
 .full-name > .input-group{
     width: 50%;
 }
-.textarea-group {
-   
-}
+
 .textarea {
     -webkit-writing-mode:none;
     min-width:300px;
@@ -284,9 +280,9 @@ img{
     width: 100%;
     min-height:100px;
 }
+
 .form-buttons {
     text-align: right;
-   
 }
 
 .form-button {
