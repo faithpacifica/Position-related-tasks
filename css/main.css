@@ -34,6 +34,22 @@ img{
     margin-left: auto;
 }
 
+
+/* Visually hidden */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
 /* WASHING MACHINE TEMPLATE */
 
 .washing-machine__wrapper {
@@ -236,7 +252,7 @@ img{
     background-color:#fff;
     padding: 40px;
     margin-bottom: 30px;
-    box-shadow:  20px 7px 20px rgb(0 0 0 / 60%)
+    box-shadow:  20px 9px 20px 10px rgb(0 0 0 / 60%)
 }
 
 .input-group {
